@@ -1,0 +1,114 @@
+{
+  "customId": "query695129",
+  "queryName": "clientes",
+  "sourceType": "rest",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "endpoint": {
+    "url": "https://5f1e-2804-37f0-8041-f00-64ac-cef1-30cc-c423.ngrok.io/clients",
+    "GET": {
+      "parameters": {}
+    },
+    "POST": {},
+    "PUT": {},
+    "DELETE": {},
+    "FILTER": {
+      "parameters": {}
+    },
+    "COUNT": {
+      "parameters": {}
+    },
+    "metadata": null
+  },
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "classe": null,
+    "codcliente": null,
+    "cpf": null,
+    "email": null,
+    "nomecliente": null,
+    "renda": null
+  },
+  "defaultValuesProperties": {
+    "classe": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "codcliente": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "cpf": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "email": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "nomecliente": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "renda": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    }
+  },
+  "security": {
+    "classe": null,
+    "codcliente": null,
+    "cpf": null,
+    "email": null,
+    "nomecliente": null,
+    "renda": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {
+    "Accept": "\"application/json\"",
+    "Content-Type": "\"application/json\""
+  },
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query695129/",
+  "audit": false,
+  "swagger": false
+}

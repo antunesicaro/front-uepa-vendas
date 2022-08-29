@@ -1,0 +1,114 @@
+{
+  "customId": "query931909",
+  "queryName": "produtos",
+  "sourceType": "rest",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "endpoint": {
+    "url": "https://5f1e-2804-37f0-8041-f00-64ac-cef1-30cc-c423.ngrok.io/produtos",
+    "GET": {
+      "parameters": {}
+    },
+    "POST": {},
+    "PUT": {},
+    "DELETE": {},
+    "FILTER": {
+      "parameters": {}
+    },
+    "COUNT": {
+      "parameters": {}
+    },
+    "metadata": null
+  },
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "codproduto": null,
+    "descricao": null,
+    "estoqueminimo": null,
+    "qtdestoque": null,
+    "unidade": null,
+    "valorunitario": null
+  },
+  "defaultValuesProperties": {
+    "codproduto": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "descricao": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "estoqueminimo": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "qtdestoque": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "unidade": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    },
+    "valorunitario": {
+      "key": true,
+      "nullable": true,
+      "type": "String"
+    }
+  },
+  "security": {
+    "codproduto": null,
+    "descricao": null,
+    "estoqueminimo": null,
+    "qtdestoque": null,
+    "unidade": null,
+    "valorunitario": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {
+    "Accept": "\"application/json\"",
+    "Content-Type": "\"application/json\""
+  },
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query931909/",
+  "audit": false,
+  "swagger": false
+}
